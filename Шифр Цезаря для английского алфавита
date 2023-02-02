@@ -22,6 +22,7 @@ for i in range(len(sp)):
                 sp3[j]=chr(a)
             else:
                 sp3[j]=chr(a-26)
+                
     s = ''.join(sp3) # перевод из списка назад в строку
     x =x + s + ' '
     sp3 = []
